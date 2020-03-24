@@ -39,12 +39,13 @@ input.page-input {
   letter-spacing: 0.4px;
   border-radius: 8px;
   background: #ebebeb;
-  box-shadow: inset 2px 2px 4px #cacaca, inset -2px -2px 4px #ffffff;
+  box-shadow: inset 2px 2px 4px rgba(202, 202, 202, 0.68), inset -2px -2px 4px rgba(255, 255, 255, 0.68);
   transition: 0.3s;
 }
 
 input.page-input:focus {
-  background: #f3f3f3;
+  background: #f1f1f1;
+  box-shadow: inset 3px 3px 8px rgba(202, 202, 202, 0.9), inset -3px -3px 8px rgba(255, 255, 255, 0.9);
 }
 
 .page-button {
@@ -57,7 +58,8 @@ input.page-input:focus {
   height: 42px;
   color: white;
   margin: 0 12px;
-  background: linear-gradient(145deg, #365aff, #2d4cdb);
+  background: #ebebeb;
+  color: #a3a3a3;
   box-shadow: 2px 2px 4px #c9c9c9, -2px -2px 4px #ffffff;
   transition: 0.3s;
   cursor: pointer;
@@ -65,6 +67,8 @@ input.page-input:focus {
 
 .page-button:hover {
   box-shadow: 5px 5px 10px #c9c9c9, -5px -5px 10px #ffffff,inset 0px 0px 0px #2b48d1, inset -0px -0px 0px #3960ff;
+  background: #2d4cdb;
+  color: #fff;
 }
 
 .page-button:active {
@@ -73,9 +77,10 @@ input.page-input:focus {
 }
 
 p.page-title {
-  font-size: 8.7pt;
-  line-height: 28px;
+  font-size: 8.4pt;
+  line-height: 24px;
   letter-spacing: 0.2px;
+  margin-bottom: 2px;
 
   color: rgb(161, 161, 161);
 }
