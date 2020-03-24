@@ -52,6 +52,7 @@ input.page-input:focus {
   border-radius: 8px;
   overflow: hidden;
 
+  font-size: 8.3pt;
   width: 42px;
   height: 42px;
   color: white;
