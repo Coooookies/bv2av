@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilibili BV号AV号互转工具</title>
+
+    <script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/av2bv.js"></script>
+
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C600%2C700&amp;ver=1.0.0">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="page-div">
+        <p class="page-title">通过BV号转AV号</p>
+        <div class="page-div-part" style="margin-bottom: 14px;">
+            <input id="input-bv-un" class="page-input" placeholder="请输入BV号">
+            <button class="page-button" onclick="bv2av();"><i class="fa fa-angle-right fa-2x" onclick=""></i></button>
+            <input id="input-bv-de" class="page-input">
+        </div>
+        <p class="page-title">通过AV号转BV号</p>
+        <div class="page-div-part">
+            <input id="input-av-un" class="page-input" placeholder="请输入AV号">
+            <button class="page-button" onclick="av2bv();"><i class="fa fa-angle-right fa-2x"></i></button>
+            <input id="input-av-de" class="page-input">
+        </div>
+    </div>
+    <div class="page-footer">
+        <p class="page-footer-p" style="line-height: 36px;"><a href="https://github.com/Coooookies/bv2av"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></p>
+        <p class="page-footer-p">本转换工具移植自Python&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.zhihu.com/question/381784377/answer/1099438784">知乎问答页</a></p>
+        <p class="page-footer-p">B站：<a href="https://space.bilibili.com/248303677">Butter_Cookies</a></p>
+    </div>
+</body>
+</html>
