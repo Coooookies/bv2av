@@ -37,6 +37,10 @@ function bv2av() {
     bvcode = "BV" + bvcode;
   }
 
+  if (bvcode.length < 12){
+    alert("请输入正确的BV号！");
+  }
+  
   $("#input-bv-de").val(dec(bvcode.substr(0, 12)));
 }
 
