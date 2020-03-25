@@ -1,3 +1,5 @@
+//算法来自知乎大佬 https://www.zhihu.com/question/381784377/answer/1099438784
+
 var table = "fZodR9XQDSUm21yCkr6zBqiveYah8bt4xsWpHnJE7jL5VG3guMTKNPAwcF";
 var tr = {};
 
