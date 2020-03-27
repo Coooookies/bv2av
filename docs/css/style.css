@@ -16,6 +16,7 @@ body {
 }
 
 .page {
+  z-index: 1;
   padding: 4px;
   position: absolute;
   max-width: 420px;
