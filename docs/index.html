@@ -5,26 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bilibili BV号AV号互转工具</title>
 
-    <script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
-    <script src="js/av2bv.js"></script>
-
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <script src="/js/jquery.js"></script>
+    <script src="/js/av2bv.js"></script>
+    
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
     <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C600%2C700&amp;ver=1.0.0">
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
 </head>
 <body>
-    <div class="page-div">
-        <p class="page-title">通过BV号转AV号</p>
-        <div class="page-div-part" style="margin-bottom: 14px;">
-            <input id="input-bv-un" class="page-input" placeholder="请输入BV号">
-            <button class="page-button" onclick="bv2av();"><i class="fa fa-angle-right fa-2x" onclick=""></i></button>
-            <input id="input-bv-de" class="page-input">
-        </div>
-        <p class="page-title">通过AV号转BV号</p>
-        <div class="page-div-part">
-            <input id="input-av-un" class="page-input" placeholder="请输入AV号">
-            <button class="page-button" onclick="av2bv();"><i class="fa fa-angle-right fa-2x"></i></button>
-            <input id="input-av-de" class="page-input">
+    <div class="page">
+        <div class="page-bg">
+            <p>从BV号转换到AV号</p>
+            <div class="page-bg-block">
+                <input class="block-input block-item" id="input-bv-un" placeholder="请输入BV号"/>
+                <button class="block-button block-item" onclick="bv2av();"><i class="fa fa-angle-right fa-2x"></i></button>
+                <input class="block-input block-item" id="input-bv-de" />
+            </div>
+            <p>从AV号转换到BV号</p>
+            <div class="page-bg-block">
+                <input class="block-input block-item" id="input-av-un" placeholder="请输入AV号"/>
+                <button class="block-button block-item" onclick="av2bv();"><i class="fa fa-angle-right fa-2x"></i></button>
+                <input class="block-input block-item" id="input-av-de" />
+            </div>
         </div>
     </div>
     <div class="page-footer">
